@@ -34,3 +34,6 @@
 [submodule "src/fontelico.font"]
 	path = src/fontelico.font
 	url = git://github.com/fontello/fontelico.font.git
+[submodule "src/qzone.font"]
+	path = src/qzone.font
+	url = git://github.com/isux/qzone.font.git
