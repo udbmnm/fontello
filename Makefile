@@ -11,16 +11,16 @@ TMP_PATH      := /tmp/${PROJECT}-$(shell date +%s)
 REMOTE_NAME   ?= origin
 REMOTE_REPO   ?= $(shell git config --get remote.${REMOTE_NAME}.url)
 
-FONTS         += fontelico.font
+#FONTS         += fontelico.font
 FONTS         += entypo
 FONTS         += awesome-uni.font
 FONTS         += iconic-uni.font
 FONTS         += typicons.font
 FONTS         += modernpics.font
-FONTS         += meteocons.font
-FONTS         += maki.font
-FONTS         += zocial.font
-FONTS         += brandico.font
+#FONTS         += meteocons.font
+#FONTS         += maki.font
+#FONTS         += zocial.font
+#FONTS         += brandico.font
 FONTS         += websymbols-uni.font
 FONT_CONFIGS   = $(foreach f,$(FONTS),src/${f}/config.yml)
 
