@@ -10,6 +10,7 @@ log/
 *.swp
 *.sublime-project
 *.sublime-workspace
+.DS_Store
 
 /public/assets/
 /public/download/
