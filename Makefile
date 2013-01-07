@@ -12,6 +12,7 @@ REMOTE_NAME   ?= origin
 REMOTE_REPO   ?= $(shell git config --get remote.${REMOTE_NAME}.url)
 
 #FONTS         += fontelico.font
+FONTS         += qzone.font
 FONTS         += entypo
 FONTS         += awesome-uni.font
 FONTS         += iconic-uni.font
