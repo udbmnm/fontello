@@ -53,3 +53,11 @@ Now you can point your browser to the page http://localhost:3000
 Detailed description will be added soon.
 
     make rebuild-fonts
+
+## Deploy
+
+    forever list        //list node processes
+    forever stop 0      //the last number is the fontello process index
+    forever start fontello.js server
+
+use forever(https://github.com/nodejitsu/forever)
