@@ -17,7 +17,7 @@
       data-bind='css: {disabled: !selectedCount()}')
       i.icon-download(data-bind='visible: !building()')
       i.icon-load.animate-spin(style='display:none', data-bind='visible: building()')
-      |  Download webfont (
+      |  下载字体 (
       span#selected-glyphs-count(data-bind='text: selectedCount()')
       | )
 
@@ -36,7 +36,7 @@
 
     ul.dropdown-menu
       li: a(href='#', data-on-click='import.start')
-        | Import <em>config.json</em>
+        | 导入 <em>config.json</em>
       li.divider
-      li: a(href='#', data-on-click='reset_selected') Unselect glyphs
-      li: a(href='#', data-on-click='reset_all_confirm') Reset all changes
+      li: a(href='#', data-on-click='reset_selected') 反选  
+      li: a(href='#', data-on-click='reset_all_confirm') 全部重置
