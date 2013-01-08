@@ -37,3 +37,6 @@
 [submodule "src/qzone.font"]
 	path = src/qzone.font
 	url = git://github.com/isux/qzone.font.git
+[submodule "src/aoi.font"]
+	path = src/aoi.font
+	url = git://github.com/isux/aoi.font.git
