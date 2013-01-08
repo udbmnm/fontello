@@ -332,7 +332,7 @@ function FontsList(options) {
 
 var keyword   = ko.observable('').extend({ throttle: 100 });
 var fontsList = new FontsList({ keyword: keyword });
-var fontSize  = ko.observable(16);
+var fontSize  = ko.observable(32);
 
 
 ////////////////////////////////////////////////////////////////////////////////
