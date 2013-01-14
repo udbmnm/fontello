@@ -1,10 +1,22 @@
-.font-embedded-0 { font-family: 'qzone'; }
-.font-embedded-1 { font-family: 'entypo'; }
-.font-embedded-2 { font-family: 'fontawesome'; }
-.font-embedded-3 { font-family: 'iconic'; }
-.font-embedded-4 { font-family: 'typicons'; }
-.font-embedded-5 { font-family: 'modernpics'; }
-.font-embedded-6 { font-family: 'websymbols'; }
+.font-embedded-0 { font-family: 'aoi'; }
+.font-embedded-1 { font-family: 'qzone'; }
+.font-embedded-2 { font-family: 'entypo'; }
+.font-embedded-3 { font-family: 'fontawesome'; }
+.font-embedded-4 { font-family: 'iconic'; }
+.font-embedded-5 { font-family: 'typicons'; }
+.font-embedded-6 { font-family: 'modernpics'; }
+.font-embedded-7 { font-family: 'websymbols'; }
+
+@font-face {
+  font-family: 'aoi';
+  src: url('<%= asset_path("embedded_fonts/aoi.eot") %>');
+  src: url('<%= asset_path("embedded_fonts/aoi.eot") %>?#iefix') format('embedded-opentype'),
+       url('<%= asset_path("embedded_fonts/aoi.woff") %>') format('woff'),
+       url('<%= asset_path("embedded_fonts/aoi.ttf") %>') format('truetype'),
+       url('<%= asset_path("embedded_fonts/aoi.svg") %>#aoi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'qzone';
