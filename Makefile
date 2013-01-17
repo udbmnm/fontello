@@ -11,9 +11,11 @@ TMP_PATH      := /tmp/${PROJECT}-$(shell date +%s)
 REMOTE_NAME   ?= origin
 REMOTE_REPO   ?= $(shell git config --get remote.${REMOTE_NAME}.url)
 
-#FONTS         += fontelico.font
-FONTS         += aoi.font
+FONTS         += solaaoi.font
 FONTS         += qzone.font
+FONTS         += tencent.font
+#FONTS         += aoi.font
+#FONTS         += social.logo
 FONTS         += entypo
 FONTS         += awesome-uni.font
 FONTS         += iconic-uni.font

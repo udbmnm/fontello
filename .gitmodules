@@ -40,3 +40,12 @@
 [submodule "src/aoi.font"]
 	path = src/aoi.font
 	url = git://github.com/isux/aoi.font.git
+[submodule "src/solaaoi.font"]
+	path = src/solaaoi.font
+	url = git://github.com/qianduan/solaaoi.font.git
+[submodule "src/tencent.font"]
+	path = src/tencent.font
+	url = git://github.com/qianduan/tencent.font.git
+[submodule "src/social.logo"]
+	path = src/social.logo
+	url = git://github.com/qianduan/social.logo.git
