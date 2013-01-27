@@ -28,24 +28,21 @@
 [submodule "src/zocial.font"]
 	path = src/zocial.font
 	url = git://github.com/fontello/zocial.font.git
-[submodule "src/maki.font"]
-	path = src/maki.font
-	url = git://github.com/fontello/maki.font.git
 [submodule "src/fontelico.font"]
 	path = src/fontelico.font
 	url = git://github.com/fontello/fontelico.font.git
 [submodule "src/qzone.font"]
 	path = src/qzone.font
 	url = git://github.com/isux/qzone.font.git
-[submodule "src/aoi.font"]
-	path = src/aoi.font
-	url = git://github.com/isux/aoi.font.git
 [submodule "src/solaaoi.font"]
 	path = src/solaaoi.font
-	url = git://github.com/qianduan/solaaoi.font.git
+	url = git@github.com:qianduan/solaaoi.font.git
 [submodule "src/tencent.font"]
 	path = src/tencent.font
-	url = git://github.com/qianduan/tencent.font.git
+	url = git@github.com:qianduan/tencent.font.git
 [submodule "src/social.logo"]
 	path = src/social.logo
-	url = git://github.com/qianduan/social.logo.git
+	url = git@github.com:qianduan/social.logo.git
+[submodule "src/qq-hd.font"]
+	path = src/qq-hd.font
+	url = git@github.com:qianduan/qq-hd.font
