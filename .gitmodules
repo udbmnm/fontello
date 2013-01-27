@@ -1,36 +1,6 @@
-[submodule "src/iconic-uni.font"]
-	path = src/iconic-uni.font
-	url = git://github.com/fontello/iconic-uni.font.git
-[submodule "src/awesome-uni.font"]
-	path = src/awesome-uni.font
-	url = git://github.com/fontello/awesome-uni.font.git
-[submodule "src/websymbols-uni.font"]
-	path = src/websymbols-uni.font
-	url = git://github.com/fontello/websymbols-uni.font.git
-[submodule "src/entypo"]
-	path = src/entypo
-	url = git://github.com/fontello/entypo.git
-[submodule "src/brandico.font"]
-	path = src/brandico.font
-	url = git://github.com/fontello/brandico.font.git
 [submodule "support/font-builder"]
 	path = support/font-builder
 	url = git://github.com/fontello/font-builder.git
-[submodule "src/modernpics.font"]
-	path = src/modernpics.font
-	url = git://github.com/fontello/modernpics.font.git
-[submodule "src/typicons.font"]
-	path = src/typicons.font
-	url = git://github.com/fontello/typicons.font.git
-[submodule "src/meteocons.font"]
-	path = src/meteocons.font
-	url = git://github.com/fontello/meteocons.font.git
-[submodule "src/zocial.font"]
-	path = src/zocial.font
-	url = git://github.com/fontello/zocial.font.git
-[submodule "src/fontelico.font"]
-	path = src/fontelico.font
-	url = git://github.com/fontello/fontelico.font.git
 [submodule "src/qzone.font"]
 	path = src/qzone.font
 	url = git://github.com/isux/qzone.font.git
@@ -46,3 +16,6 @@
 [submodule "src/qq-hd.font"]
 	path = src/qq-hd.font
 	url = git@github.com:qianduan/qq-hd.font
+[submodule "src/entypo"]
+	path = src/entypo
+	url = git://github.com/fontello/entypo.git
