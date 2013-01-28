@@ -10,9 +10,6 @@
 [submodule "src/tencent.font"]
 	path = src/tencent.font
 	url = git@github.com:qianduan/tencent.font.git
-[submodule "src/social.logo"]
-	path = src/social.logo
-	url = git@github.com:qianduan/social.logo.git
 [submodule "src/qq-hd.font"]
 	path = src/qq-hd.font
 	url = git@github.com:qianduan/qq-hd.font
