@@ -15,7 +15,7 @@ FONTS         += solaaoi.font
 FONTS         += qzone.font
 FONTS         += tencent.font
 FONTS         += qq-hd.font
-FONTS         += social.logo
+#FONTS         += social.logo
 FONTS         += entypo
 FONT_CONFIGS   = $(foreach f,$(FONTS),src/${f}/config.yml)
 
