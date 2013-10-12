@@ -3,22 +3,22 @@
 	url = git://github.com/fontello/font-builder.git
 [submodule "src/qzone.font"]
 	path = src/qzone.font
-	url = git@github.com:isux/qzone.font.git
+	url = https://github.com/isux/qzone.font.git
 [submodule "src/solaaoi.font"]
 	path = src/solaaoi.font
-	url = git@github.com:qianduan/solaaoi.font.git
+	url = https://github.com/qianduan/solaaoi.font.git
 [submodule "src/tencent.font"]
 	path = src/tencent.font
-	url = git@github.com:qianduan/tencent.font.git
+	url = https://github.com/qianduan/tencent.font.git
 [submodule "src/qzone-touch.font"]
 	path = src/qzone-touch.font
-	url = git@github.com:qianduan/qzone-touch.font.git
+	url = https://github.com/qianduan/qzone-touch.font.git
 [submodule "src/qq-hd.font"]
 	path = src/qq-hd.font
-	url = git@github.com:qianduan/qq-hd.font
+	url = https://github.com/qianduan/qq-hd.font
 [submodule "src/entypo"]
 	path = src/entypo
-	url = git://github.com/fontello/entypo.git
+	url = https://github.com/fontello/entypo.git
 [submodule "src/isux-blog.font"]
 	path = src/isux-blog.font
-	url = git@github.com:isux/isux-blog.font.git
+	url = https://github.com/isux/isux-blog.font.git
