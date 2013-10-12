@@ -16,8 +16,6 @@ First, select the icons you like. Then update glyph codes (optional), and
 download your webfont bundle. We generate everything you need, ready for publishing
 on your website!
 
-Don't forget about donations :)
-
 
 ## Compatibility
 
@@ -27,28 +25,47 @@ Don't forget about donations :)
    [details](http://blog.kaelig.fr/post/33373448491/testing-font-face-support-on-mobile-and-tablet).
 
 
-## Embedded Fonts <a name="embedded"></a>
+## Developers API
 
-Fontello comes with the following embedded set of icon fonts:
+Fontello allows easy scripting, to implement different convenient features:
 
-- [__Entypo__](http://www.entypo.com/) by Daniel Bruce (CC BY-SA license)
-- [__Font Awesome__](http://fortawesome.github.com/Font-Awesome//) by Dave Gandy (CC BY-SA license)
-- [__Iconic__](https://github.com/somerandomdude/Iconic) by P.J. Onori (SIL OFL)
-- [__Typicons__](http://typicons.com/) by Stephen Hutchings (CC BY-SA 3.0 license)
-- [__Modern Pictograms__](http://thedesignoffice.org/project/modern-pictograms/) by John Caserta (SIL OFL)
-- [__Meteocons__](http://www.alessioatzeni.com/) by Alessio Atzeni (SIL OFL)
-- [__Fontelico__](https://github.com/fontello/fontelico.font) by... all :) (SIL OFL)
-- [__Web Symbols__](http://www.justbenicestudio.com/studio/websymbols/) by Just Be Nice studio (SIL OFL)
-- [__Brandico__](https://github.com/fontello/brandico.font) by... all :) (SIL OFL)
+1. Open site from command line, with your configuration, and import edited project
+    - [Makefile example](https://gist.github.com/puzrin/5537065). That's a live working code, used
+      for development of fontello itself.
+2. Writing website plugins, to import/export icons via admin panel.
 
-Please, note that these embedded fonts differ from the original files. We did some
-modifications to unify characteristics such as scale, ascent/descent and alignment.
+When more examples available, those will be added here.
+
+
+### API methods
+
+1. `POST http://fontello.com/` creates a session with your config and
+   return you `session_id`. You can use it later to open fontello with you configuration
+   and to automatically download your font. Session is stored for 24h. POST params
+   (form-encoded):
+    - `config` - content of `config.json` for your font
+    - `url` - if used, download button will link to your admin panel, where you can
+      run importing script.
+2. `http://fontello.com/[session_id]` - opening fontello with your config preloaded.
+   When you edit font, your config is automatically sent to server
+3. `http://fontello.com/[session_id]/get` - download your font.
+
+Note. When you open site via API url, `download` button will have another text.
+
+
+### Examples
+
+* [Makefile](https://gist.github.com/puzrin/5537065) - quick load iconic font
+  from your project via CLI & save result back.
+* [fontello-cli](https://github.com/paulyoung/fontello-cli) - the same, as above,
+  but written in `node.js`. If you don't like `make` utility, then
+  `fontello-cli` is for you :)
 
 
 ## Contacts
 
 - Questions: [Google group](https://groups.google.com/group/fontello/)
-- Bug reports: [Issue tracker](https://github.com/nodeca/fontomas/issues)
+- Bug reports: [Issue tracker](https://github.com/fontello/fontello/issues)
 - Suggestion for adding your OFL fonts or other collaborations: vitaly@rcdesign.ru
 
 
@@ -60,6 +77,7 @@ modifications to unify characteristics such as scale, ascent/descent and alignme
 - Aleksey Zapparov ([ixti](https://github.com/ixti)).
   [Follow](https://twitter.com/zapparov) on twitter.
 - Evgeny Shkuropat ([shkuropat](https://github.com/shkuropat)).
+- Vladimir Zapparov ([dervus](https://github.com/dervus)).
 
 
 ## License
@@ -68,10 +86,11 @@ Fontello's code (all files, except fonts) is distributed under MIT license. See
 [LICENSE](https://github.com/fontello/fontello/blob/master/LICENSE) file for details.
 
 Embedded fonts are distributed under their primary licenses (SIL OFL / CC BY / CC BY-SA).
-See section [Embedded Fonts](#embedded) above for credits & links to font homepages.
+See fonts info on fontello website for credits & links to homepages. This info is also
+included in generated font archives for your convenience (see LICENSE.txt file).
 
 Generated fonts are intended for web usage, and should not be
 considered/distributed as independent artwork. Consider fontello a
-font archiver and credit original font creators according to their respective license.
+"font archiver" and credit original font creators according to their respective license.
 
 Crediting fontello is not required :)

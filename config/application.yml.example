@@ -3,31 +3,15 @@
 configured: true
 
 
-# Different application-specific constants
+# Options - different kind of constants, to keep root space clear
 #
 options:
 
-  # Number of sinultaneous font-builder processes
-  # default - amount of CPUs
-  #
-  builder_concurrency: 2
-
-  # Max allowed glyphs per download. Unlimited if null.
-  #
-  max_glyphs: ~
-
-  # Toolbar size slider params
-  #
-  glyph_size:
-    min: 12               # minimal size
-    val: 16               # default size
-    max: 30               # miximum size
-
-  # Mapping defaults
-  #
-  autoguess_charcode:
-    min: 0xe800
-    max: 0xf8ff
+  # # Cache location for differend needs (styles compiler, mincer, ...),
+  # # anyone can create additional subfolders there.
+  # # Path is relative to main app's root. By default - './.cache'
+  # #
+  # cache_dir: ./.cache
 
 
 # Locales
@@ -54,12 +38,11 @@ bind:
   # SYNOPSIS:
   #
   # <apiPath>:
-  #   mount: [<proto>:][//<host>[:<port>]][/<path>]
+  #   mount: [<proto>:][//[<host>][:<port>]][/<path>]
   #   listen: <address>[:<port = 80>]
   #   ssl:
   #     key:  /path/to/file.key   # Path might be absolute
-  #     cert: /path/to/file.cert  # or relative to the root
-  #     pfs:  /path/to/file.pfx   # of main nodeca application
+  #     cert: /path/to/file.cert  # or relative to the main app
   #
   # SSL EXAMPLE:
   #

@@ -5,12 +5,9 @@
 
 
 exports.root = __dirname;
-exports.init = function () {
-  // Executed once all application were loaded.
-  // Used to "attach" hooks for models etc.
-};
+exports.init = function (N) { require('./lib/autoload.js')(N); };
 
 
 if (!module.parent) {
-  require('./lib/runner').bootstrap(exports);
+  require('./lib/system/runner').bootstrap(exports);
 }

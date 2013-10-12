@@ -1,0 +1,16 @@
+en-US:
+  error:
+    invalid_browser: >
+      Your browser does not support this operation, because it's not
+      enougth modern. Please,
+      <a href="http://www.mozilla.org/firefox/new/">upgrade</a>
+      it to something better.
+
+    no_files_chosen: You must choose a file.
+    bad_config_format: "Can't parse config file '#{name}'"
+    bad_zip_format: "Can't unzip '#{name}'"
+    unknown_format: "Can't import '#{name}' - unknown format"
+
+    bad_svg_image: >
+      '#{name}' contains multiple contours. Please, join those
+      first in editor, and try import again.

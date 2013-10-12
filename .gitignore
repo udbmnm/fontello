@@ -1,10 +1,12 @@
-config/*.local.yml
 config/application.yml
 config/production.yml
+config/development.yml
+config/logger.yml
 node_modules/
 doc/
 tmp/
 log/
+.cache
 
 *.log
 *.swp
@@ -14,3 +16,7 @@ log/
 
 /public/assets/
 /public/download/
+
+.fontello
+.fontello.zip
+.fontello.src
