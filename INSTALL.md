@@ -1,4 +1,4 @@
-installation instruction
+Fontello installation instruction
 =================================
 
 This project requires Ubuntu 12.04 LTS. But it probabply can work on
@@ -38,6 +38,7 @@ Reopen terminal. Install node (long), and set default version:
     nvm install 0.10
     nvm alias default 0.10
 
+
 ## Fontello
 
 Install fontello sources & dependencies:
@@ -71,11 +72,3 @@ Now you can point your browser to the page http://localhost:3000
 Detailed description will be added soon.
 
     make rebuild
-
-## Deploy
-
-    forever list        //list node processes
-    forever stop 0      //the last number is the fontello process index
-    forever start fontello.js server
-
-use forever(https://github.com/nodejitsu/forever)
